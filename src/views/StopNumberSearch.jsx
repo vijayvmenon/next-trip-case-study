@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React, { useState } from 'react';
 import { createUseStyles } from 'react-jss';
+import { useLocation } from 'wouter';
 import Input from '../components/Input';
 import constants from '../constants';
 import { httpGet } from '../utils';
@@ -9,6 +10,7 @@ import TableWrapper from './TableWrapper';
 const useStyles = createUseStyles({
   root: {
     marginTop: 24,
+    width: '60%',
   },
 });
 
@@ -18,6 +20,8 @@ export default function StopNumberSearch() {
   const [tableData, setTableData] = useState(null);
   const [intrvel, setIntrvl] = useState('initial');
   const [error, setError] = useState(false);
+  const [location, setLocation] = useLocation();
+  console.log(location);
   const onSearch = async (value, e) => {
     if (e) {
       e.preventDefault();
@@ -25,6 +29,7 @@ export default function StopNumberSearch() {
     if (!value) {
       return;
     }
+    setLocation(`/byStop/${value}`);
     getTableData('on-search');
   };
 

@@ -1,0 +1,12 @@
+{
+  "stops": [
+    {
+      "stop_id": 51434,
+      "latitude": 44.880754,
+      "longitude": -93.204947,
+      "description": "Terminal 1 Lindbergh Station"
+    }
+  ],
+  "alerts": [],
+  "departures": []
+}

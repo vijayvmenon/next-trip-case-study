@@ -22,5 +22,13 @@ module.exports = {
     //   'error',
     //   process.platform === 'win32' ? 'windows' : 'unix',
     // ],
+    // 'jsx-a11y/anchor-is-valid': [
+    //   'error',
+    //   {
+    //     components: ['Link'],
+    //     specialLink: ['href'],
+    //     //   "aspects": ["noHref", "invalidHref", "preferButton"]
+    //   },
+    // ],
   },
 };

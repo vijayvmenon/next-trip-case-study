@@ -12,25 +12,18 @@ const useStyles = createUseStyles({
   },
 });
 
-export default function SearchOptions({ options, click }) {
+export default function SearchOptions({ options }) {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <nav className={classes.root}>
       {options.map((val) => (
-        <LinkButton
-          name={val.name}
-          hrefLink={val.hrefLink}
-          active={val.active}
-          key={val.name}
-          click={click}
-        />
+        <LinkButton name={val.name} hrefLink={val.hrefLink} key={val.name} />
       ))}
-    </div>
+    </nav>
   );
 }
 
 SearchOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.any).isRequired,
-  click: PropTypes.func.isRequired,
 };

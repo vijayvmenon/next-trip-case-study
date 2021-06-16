@@ -14,6 +14,7 @@ const useStyles = createUseStyles({
     width: '100%',
     borderSpacing: 0,
     boxSizing: 'border-box',
+    borderCollapse: 'collapse',
   },
   header: {
     background: colors.BACKGROUND_2,
@@ -22,18 +23,26 @@ const useStyles = createUseStyles({
   },
   tableCell: {
     padding: 16,
-    borderBottom: '1px solid black',
+    // borderBottom: '1px solid black',
+  },
+  tableRow: {
+    borderTop: '1px solid black',
   },
   icon: {
     widht: 32,
     height: 32,
     color: colors.BACKGROUND_2,
-    cursor: 'pointer',
   },
   expandIcon: {
     extend: 'icon',
   },
   collapseIcon: { extend: 'icon' },
+  clickable: {
+    cursor: 'pointer',
+    '&:hover': {
+      background: colors.BACKGROUND_1,
+    },
+  },
   closeIcon: { extend: 'icon', cursor: 'default' },
   iconWithText: {
     paddingLeft: 8,
@@ -86,7 +95,7 @@ export default function Table({ rows, columns }) {
 
   const RowsIfCollapsed = () =>
     rowsToShow.map((rowValue, key) => (
-      <tr key={key}>
+      <tr key={key} className={classes.tableRow}>
         {columns.map((columnValue, columnKey) => (
           <td
             key={columnKey}
@@ -106,7 +115,7 @@ export default function Table({ rows, columns }) {
     rowsToHide.length > 0 && (
       <>
         {rowsToHide.map((rowValue, key) => (
-          <tr key={key}>
+          <tr key={key} className={classes.tableRow}>
             {columns.map((columnValue, columnKey) => (
               <td
                 key={columnKey}
@@ -126,13 +135,13 @@ export default function Table({ rows, columns }) {
   const ExpandRow = () =>
     !tableExpanded &&
     rowsToHide.length > 0 && (
-      <tr>
-        <td>
+      <tr className={classes.clickable} className={classes.tableRow}>
+        <td
+          colSpan={columns.length}
+          onClick={() => dispatch({ type: 'TABLE_EXPAND' })}
+        >
           <div className={classes.iconWithText}>
-            <Expand
-              className={classes.expandIcon}
-              onClick={() => dispatch({ type: 'TABLE_EXPAND' })}
-            />
+            <Expand className={classes.expandIcon} />
             <p className={classes.iconText}>{constants.SHOW_MORE}</p>
           </div>
         </td>
@@ -142,13 +151,13 @@ export default function Table({ rows, columns }) {
   const CollapseRow = () =>
     tableExpanded &&
     rowsToHide.length > 0 && (
-      <tr>
-        <td>
+      <tr className={classes.clickable} className={classes.tableRow}>
+        <td
+          colSpan={columns.length}
+          onClick={() => dispatch({ type: 'TABLE_COLLAPSE' })}
+        >
           <div className={classes.iconWithText}>
-            <Collapse
-              className={classes.collapseIcon}
-              onClick={() => dispatch({ type: 'TABLE_COLLAPSE' })}
-            />
+            <Collapse className={classes.collapseIcon} />
             <p className={classes.iconText}>{constants.SHOW_LESS}</p>
           </div>
         </td>

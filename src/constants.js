@@ -16,6 +16,7 @@ const constants = {
   SELECT_STOP: 'Select stop',
   STOP_HASH: 'Stop # : ',
   STOP_CLOSED: 'Stop closed',
+  NOT_VALID_STOP: 'is not a valid stop number',
   ROUTE: 'Route',
   DIRECTION: 'Direction',
   STOP: 'Stop',
@@ -60,6 +61,7 @@ const constants = {
   INTERVAL_FREQUENCY: 1000000,
   SHOW_MORE: 'Show more',
   SHOW_LESS: 'Show less',
+  SEARCH_STOPS: 'Search stops',
   http: {
     BASE_URL: 'https://svc.metrotransit.org/nextripv2',
     BASE_URL_LOCAL: 'http://localhost:3001',

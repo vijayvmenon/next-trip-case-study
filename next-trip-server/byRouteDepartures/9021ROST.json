@@ -1,0 +1,104 @@
+{
+  "stops": [
+    {
+      "stop_id": 56027,
+      "latitude": 44.946164,
+      "longitude": -93.092297,
+      "description": "Central Station"
+    }
+  ],
+  "alerts": [],
+  "departures": [
+    {
+      "actual": true,
+      "trip_id": "18729857-JUN21-RAIL-Weekday-01",
+      "stop_id": 56027,
+      "departure_text": "2 Min",
+      "departure_time": 1623807240,
+      "description": "to Mpls-Target Field",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 1,
+      "direction_text": "WB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729858-JUN21-RAIL-Weekday-01",
+      "stop_id": 56027,
+      "departure_text": "8:49",
+      "departure_time": 1623808140,
+      "description": "to Mpls-Target Field",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 1,
+      "direction_text": "WB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729859-JUN21-RAIL-Weekday-01",
+      "stop_id": 56027,
+      "departure_text": "9:04",
+      "departure_time": 1623809040,
+      "description": "to Mpls-Target Field",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 1,
+      "direction_text": "WB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729861-JUN21-RAIL-Weekday-01",
+      "stop_id": 56027,
+      "departure_text": "9:19",
+      "departure_time": 1623809940,
+      "description": "to Mpls-Target Field",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 1,
+      "direction_text": "WB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729862-JUN21-RAIL-Weekday-01",
+      "stop_id": 56027,
+      "departure_text": "9:34",
+      "departure_time": 1623810840,
+      "description": "to Mpls-Target Field",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 1,
+      "direction_text": "WB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729863-JUN21-RAIL-Weekday-01",
+      "stop_id": 56027,
+      "departure_text": "9:49",
+      "departure_time": 1623811740,
+      "description": "to Mpls-Target Field",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 1,
+      "direction_text": "WB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729860-JUN21-RAIL-Weekday-01",
+      "stop_id": 56027,
+      "departure_text": "10:19",
+      "departure_time": 1623813540,
+      "description": "to Mpls-Target Field",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 1,
+      "direction_text": "WB",
+      "schedule_relationship": "Scheduled"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "stops": [
+    {
+      "stop_id": 51437,
+      "latitude": 44.855876,
+      "longitude": -93.231499,
+      "description": "28th Ave Station"
+    }
+  ],
+  "alerts": [
+    {
+      "stop_closed": false,
+      "alert_text": "Only one elev. at Blue Line 28th Ave Sta - Stop #51437 & 28th Ave Sta - Stop #51422 available until further notice"
+    },
+    {
+      "stop_closed": false,
+      "alert_text": "As of Nov. 21, the upper levels of Metro Transit's 28th Ave Station parking ramp will close"
+    }
+  ],
+  "departures": [
+    {
+      "actual": true,
+      "trip_id": "18729170-JUN21-RAIL-Sunday-01",
+      "stop_id": 51437,
+      "departure_text": "5 Min",
+      "departure_time": 1623633600,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729167-JUN21-RAIL-Sunday-01",
+      "stop_id": 51437,
+      "departure_text": "8:35",
+      "departure_time": 1623634500,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729171-JUN21-RAIL-Sunday-01",
+      "stop_id": 51437,
+      "departure_text": "8:50",
+      "departure_time": 1623635400,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729172-JUN21-RAIL-Sunday-01",
+      "stop_id": 51437,
+      "departure_text": "9:05",
+      "departure_time": 1623636300,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729173-JUN21-RAIL-Sunday-01",
+      "stop_id": 51437,
+      "departure_text": "9:20",
+      "departure_time": 1623637200,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729174-JUN21-RAIL-Sunday-01",
+      "stop_id": 51437,
+      "departure_text": "9:35",
+      "departure_time": 1623638100,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729175-JUN21-RAIL-Sunday-01",
+      "stop_id": 51437,
+      "departure_text": "9:50",
+      "departure_time": 1623639000,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729176-JUN21-RAIL-Sunday-01",
+      "stop_id": 51437,
+      "departure_text": "10:05",
+      "departure_time": 1623639900,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    }
+  ]
+}

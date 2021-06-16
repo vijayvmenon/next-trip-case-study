@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { createUseStyles } from 'react-jss';
-import { colors } from '../constants';
+import constants, { colors } from '../constants';
 import { ReactComponent as SearchIcon } from '../assets/search-icon.svg';
 
 const useStyles = createUseStyles({
@@ -10,42 +10,47 @@ const useStyles = createUseStyles({
     position: 'relative',
     marginTop: 24,
   },
+  inputFocus: {
+    outline: 'none',
+    borderRadius: 10,
+  },
   input: {
     fontSize: 18,
-    padding: '14px 10px 0px 5px',
+    borderRadius: 10,
+    padding: '14px 10px 0px 8px',
     display: 'block',
-    width: 300,
+    width: '100%',
     color: colors.TEXT_COLOR,
-    height: 48,
+    height: 56,
     boxSizing: 'border-box',
     border: '1px solid #757575',
     '&:focus': {
       borderColor: colors.BACKGROUND_2,
       borderWidth: 2,
+      extend: 'inputFocus',
     },
     '&:focus ~ label': {
-      top: 3,
-      left: -5,
-      fontSize: 14,
+      top: 4,
+      left: 10,
+      fontSize: '0.8rem',
       color: '#4285f4',
-      transform: 'scale(0.8)',
+      // transform: 'scale(0.8)',
     },
     '&:valid ~ label': {
-      top: 3,
-      left: -5,
-      fontSize: 14,
-      transform: 'scale(0.8)',
+      top: 4,
+      left: 10,
+      fontSize: '0.8rem',
+      // transform: 'scale(0.8)',
     },
   },
   label: {
-    textTransform: 'uppercase',
     color: '#999',
     fontSize: 18,
     fontWeight: 'normal',
     position: 'absolute',
     pointerEvents: 'none',
     left: 10,
-    top: 13,
+    top: 17,
     transition: '0.2s ease all',
   },
   searchIcon: {
@@ -54,9 +59,15 @@ const useStyles = createUseStyles({
     width: '1.8rem',
     position: 'absolute',
     right: 0,
-    bottom: 9,
+    bottom: 12,
     right: 12,
     color: colors.TEXT_COLOR,
+    '&:hover': {
+      color: colors.BACKGROUND_2,
+      height: '2rem',
+      width: '2rem',
+      transition: '0.2s ease all',
+    },
   },
 });
 export default function Input({
@@ -94,10 +105,12 @@ export default function Input({
       <label htmlFor={label} className={classes.label}>
         {label}
       </label>
-      <SearchIcon
-        onClick={() => onSearch(value)}
-        className={classes.searchIcon}
-      />
+      <span title={constants.SEARCH_STOPS}>
+        <SearchIcon
+          onClick={() => onSearch(value)}
+          className={classes.searchIcon}
+        />
+      </span>
     </div>
   );
 }

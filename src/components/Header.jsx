@@ -5,7 +5,7 @@ import constants, { colors } from '../constants';
 const useStyles = createUseStyles({
   headerRoot: {
     background: colors.BACKGROUND_2,
-    height: 60,
+    height: 40,
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'flex-start',

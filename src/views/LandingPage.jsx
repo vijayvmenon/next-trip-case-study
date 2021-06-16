@@ -1,5 +1,7 @@
+/* eslint-disable */
 import React, { useState, useEffect } from 'react';
 import { createUseStyles } from 'react-jss';
+import { Switch, Route, Redirect } from 'wouter';
 import constants, { colors } from '../constants';
 import SearchOptions from './SearchOptions';
 import RouteSearch from './RouteDirectionStopSearch';
@@ -23,41 +25,29 @@ export default function LandingPage() {
     {
       name: constants.BY_ROUTE,
       hrefLink: '/byRoute',
-      active:
-        window.location.pathname === '/' ||
-        window.location.pathname === '/byRoute',
-      component: <RouteSearch />,
     },
     {
       name: constants.BY_STOP,
       hrefLink: '/byStop',
-      active: window.location.pathname === '/byStop',
-      component: <StopSearch />,
     },
   ]);
-
-  useEffect(() => {
-    if (window.location.pathname === '/') {
-      window.location.href = '/byRoute';
-    }
-  }, []);
-
-  const setActiveOption = (activeVal) => {
-    setOptions(
-      options.map((val) => ({
-        ...val,
-        active: val.name === activeVal,
-      })),
-    );
-  };
 
   return (
     <div className={classes.root}>
       <header>
         <h2 className={classes.appHeaderText}>{constants.APP_HEADER}</h2>
       </header>
-      <SearchOptions options={options} click={setActiveOption} />
-      {options.find((val) => val.active).component}
+      <SearchOptions options={options} />
+      <Switch>
+        <Route path="/byRoute" component={RouteSearch} />
+        <Route path="/byStop" component={StopSearch} />
+        <Route
+          path="/byRoute/:routeId/:directionId/:stopId"
+          component={RouteSearch}
+        />
+        <Route path="/byStop/:stopId" component={StopSearch} />
+        <Redirect to="/byRoute" />
+      </Switch>
     </div>
   );
 }

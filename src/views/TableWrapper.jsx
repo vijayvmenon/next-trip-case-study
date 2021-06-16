@@ -63,7 +63,7 @@ function TableWrapper({
       }
     }
     return undefined; // for eslint consistent-return rule fix
-  }, [tableData, interval]);
+  }, [tableData, interval, getTableData]);
 
   // clearing the interval on component unmount as well
   useEffect(

@@ -1,0 +1,125 @@
+{
+  "stops": [
+    {
+      "stop_id": 56335,
+      "latitude": 44.982905,
+      "longitude": -93.277396,
+      "description": "Target Field Station Platform 1"
+    }
+  ],
+  "alerts": [],
+  "departures": [
+    {
+      "actual": false,
+      "trip_id": "18729944-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "9:17",
+      "departure_time": 1623809820,
+      "description": "to St. Paul-Union Depot",
+      "gate": "1",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 0,
+      "direction_text": "EB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729945-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "9:32",
+      "departure_time": 1623810720,
+      "description": "to St. Paul-Union Depot",
+      "gate": "1",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 0,
+      "direction_text": "EB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729946-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "9:47",
+      "departure_time": 1623811620,
+      "description": "to St. Paul-Union Depot",
+      "gate": "1",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 0,
+      "direction_text": "EB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729947-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "10:02",
+      "departure_time": 1623812520,
+      "description": "to St. Paul-Union Depot",
+      "gate": "1",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 0,
+      "direction_text": "EB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729948-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "10:15",
+      "departure_time": 1623813300,
+      "description": "to St. Paul-Union Depot",
+      "gate": "1",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 0,
+      "direction_text": "EB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729967-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "10:23",
+      "departure_time": 1623813780,
+      "description": "to St. Paul-Union Depot",
+      "gate": "1",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 0,
+      "direction_text": "EB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729949-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "10:32",
+      "departure_time": 1623814320,
+      "description": "to St. Paul-Union Depot",
+      "gate": "1",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 0,
+      "direction_text": "EB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18729951-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "10:52",
+      "departure_time": 1623815520,
+      "description": "to St. Paul-Union Depot",
+      "gate": "1",
+      "route_id": "902",
+      "route_short_name": "Green",
+      "direction_id": 0,
+      "direction_text": "EB",
+      "schedule_relationship": "Scheduled"
+    }
+  ]
+}

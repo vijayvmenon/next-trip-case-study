@@ -1,0 +1,156 @@
+{
+  "stops": [
+    {
+      "stop_id": 51434,
+      "latitude": 44.880754,
+      "longitude": -93.204947,
+      "description": "Terminal 1 Lindbergh Station"
+    }
+  ],
+  "alerts": [],
+  "departures": [
+    {
+      "actual": true,
+      "trip_id": "18730035-JUN21-RAIL-Weekday-01",
+      "stop_id": 51434,
+      "departure_text": "5 Min",
+      "departure_time": 1623710760,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": true,
+      "trip_id": "18730031-JUN21-RAIL-Weekday-01",
+      "stop_id": 51434,
+      "departure_text": "14 Min",
+      "departure_time": 1623711300,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730032-JUN21-RAIL-Weekday-01",
+      "stop_id": 51434,
+      "departure_text": "6:05",
+      "departure_time": 1623711900,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730037-JUN21-RAIL-Weekday-01",
+      "stop_id": 51434,
+      "departure_text": "6:15",
+      "departure_time": 1623712500,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730139-JUN21-RAIL-Weekday-01",
+      "stop_id": 51434,
+      "departure_text": "6:25",
+      "departure_time": 1623713100,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730036-JUN21-RAIL-Weekday-01",
+      "stop_id": 51434,
+      "departure_text": "6:36",
+      "departure_time": 1623713760,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730038-JUN21-RAIL-Weekday-01",
+      "stop_id": 51434,
+      "departure_text": "6:46",
+      "departure_time": 1623714360,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730039-JUN21-RAIL-Weekday-01",
+      "stop_id": 51434,
+      "departure_text": "6:56",
+      "departure_time": 1623714960,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730147-JUN21-RAIL-Weekday-01",
+      "stop_id": 51434,
+      "departure_text": "7:06",
+      "departure_time": 1623715560,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730146-JUN21-RAIL-Weekday-01",
+      "stop_id": 51434,
+      "departure_text": "7:17",
+      "departure_time": 1623716220,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730033-JUN21-RAIL-Weekday-01",
+      "stop_id": 51434,
+      "departure_text": "7:29",
+      "departure_time": 1623716940,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    }
+  ]
+}

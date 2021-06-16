@@ -1,0 +1,65 @@
+{
+  "stops": [
+    {
+      "stop_id": 48977,
+      "latitude": 44.74815,
+      "longitude": -93.218069,
+      "description": "Cedar Ave S & 140th St Station"
+    }
+  ],
+  "alerts": [],
+  "departures": [
+    {
+      "actual": true,
+      "trip_id": "18707413-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 48977,
+      "departure_text": "Due",
+      "departure_time": 1623807478,
+      "description": "Apple Valley",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18707414-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 48977,
+      "departure_text": "9:08",
+      "departure_time": 1623809280,
+      "description": "Apple Valley",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18707415-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 48977,
+      "departure_text": "9:38",
+      "departure_time": 1623811080,
+      "description": "Apple Valley",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18707416-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 48977,
+      "departure_text": "10:08",
+      "departure_time": 1623812880,
+      "description": "Apple Valley",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    }
+  ]
+}

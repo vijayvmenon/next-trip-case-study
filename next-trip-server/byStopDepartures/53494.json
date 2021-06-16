@@ -1,0 +1,65 @@
+{
+  "stops": [
+    {
+      "stop_id": 53494,
+      "latitude": 44.736657,
+      "longitude": -93.217419,
+      "description": "Cedar Ave S & 147th St Station"
+    }
+  ],
+  "alerts": [],
+  "departures": [
+    {
+      "actual": true,
+      "trip_id": "18707365-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 53494,
+      "departure_text": "Due",
+      "departure_time": 1623724044,
+      "description": "Mall of America",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18707369-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 53494,
+      "departure_text": "9:56",
+      "departure_time": 1623725760,
+      "description": "Mall of America",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18707370-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 53494,
+      "departure_text": "10:26",
+      "departure_time": 1623727560,
+      "description": "Mall of America",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18707368-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 53494,
+      "departure_text": "10:57",
+      "departure_time": 1623729420,
+      "description": "Mall of America",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    }
+  ]
+}

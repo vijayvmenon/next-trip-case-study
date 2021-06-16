@@ -1,9 +1,10 @@
 /* eslint-disable */
 import React, { useEffect, useState } from 'react';
 import { createUseStyles } from 'react-jss';
+import { useLocation } from 'wouter';
 import Select from '../components/Select';
 import constants from '../constants';
-import { httpGet, urlBuilder } from '../utils';
+import { httpGet, urlBuilder, checkIfUrlHasCorrectParams } from '../utils';
 import TableWrapper from './TableWrapper';
 
 const { ROUTE, DIRECTION, STOP, http, SELECT_FIELDS } = constants;
@@ -11,6 +12,7 @@ const { ROUTE, DIRECTION, STOP, http, SELECT_FIELDS } = constants;
 const useStyles = createUseStyles({
   root: {
     marginTop: 24,
+    width: '60%',
   },
   tablePadding: {
     padding: '32px 60px',
@@ -21,6 +23,7 @@ export default function RouteDirectionStopSearch() {
   const classes = useStyles();
   const [dropdowns, setDropDowns] = useState(SELECT_FIELDS);
   const [error, setError] = useState(false);
+  const [location, setLocation] = useLocation();
   const [selectProperties, setSelectProperties] = useState([
     { id: ROUTE, param: null, selected: '', active: false },
     { id: DIRECTION, param: null, selected: '', active: false },
@@ -56,6 +59,11 @@ export default function RouteDirectionStopSearch() {
   // Load routes on Initial Load
   useEffect(() => {
     getData(http.ROUTE, ROUTE);
+    console.log(location, checkIfUrlHasCorrectParams(location));
+    const urlToLoad = checkIfUrlHasCorrectParams(location);
+    if (urlToLoad) {
+      getTableData('on-search', urlToLoad);
+    }
   }, []);
 
   // Moving the data fetching logic for dropdowns and table to the useeffect once selectProperties state is changed.
@@ -85,12 +93,13 @@ export default function RouteDirectionStopSearch() {
     }
   }, [selectProperties]);
 
-  function getTableData(interval) {
+  function getTableData(interval, passedUrl) {
     /* set tableData to null only if a new search is made. 
     This is to handle the useEffect run for clearing interval in <Table/> component */
     interval === 'on-search' && setTableData(null);
     setIntrvl(interval);
-    const tableUrl = urlBuilder(selectProperties);
+    const tableUrl = passedUrl || urlBuilder(selectProperties);
+    setLocation(`/byRoute/${tableUrl}`);
     getData(tableUrl, 'table');
   }
 

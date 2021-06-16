@@ -1,0 +1,69 @@
+{
+  "stops": [
+    {
+      "stop_id": 56980,
+      "latitude": 44.725492,
+      "longitude": -93.218067,
+      "description": "Apple Valley Transit Station SB"
+    }
+  ],
+  "alerts": [],
+  "departures": [
+    {
+      "actual": true,
+      "trip_id": "18707413-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 56980,
+      "departure_text": "4 Min",
+      "departure_time": 1623807767,
+      "description": "Apple Valley",
+      "gate": "A",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18707414-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 56980,
+      "departure_text": "9:13",
+      "departure_time": 1623809580,
+      "description": "Apple Valley",
+      "gate": "A",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18707415-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 56980,
+      "departure_text": "9:43",
+      "departure_time": 1623811380,
+      "description": "Apple Valley",
+      "gate": "A",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18707416-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 56980,
+      "departure_text": "10:13",
+      "departure_time": 1623813180,
+      "description": "Apple Valley",
+      "gate": "A",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    }
+  ]
+}

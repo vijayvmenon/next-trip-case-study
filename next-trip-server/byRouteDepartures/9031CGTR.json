@@ -1,0 +1,65 @@
+{
+  "stops": [
+    {
+      "stop_id": 56510,
+      "latitude": 44.811616,
+      "longitude": -93.219383,
+      "description": "Cedar Grove Busway & Hwy 77"
+    }
+  ],
+  "alerts": [],
+  "departures": [
+    {
+      "actual": false,
+      "trip_id": "18707414-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 56510,
+      "departure_text": "9:03",
+      "departure_time": 1623808980,
+      "description": "Apple Valley",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18707415-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 56510,
+      "departure_text": "9:33",
+      "departure_time": 1623810780,
+      "description": "Apple Valley",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18707416-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 56510,
+      "departure_text": "10:03",
+      "departure_time": 1623812580,
+      "description": "Apple Valley",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18707417-JUN21-MVS-BUS-Weekday-01",
+      "stop_id": 56510,
+      "departure_text": "10:33",
+      "departure_time": 1623814380,
+      "description": "Apple Valley",
+      "route_id": "903",
+      "route_short_name": "Red",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    }
+  ]
+}

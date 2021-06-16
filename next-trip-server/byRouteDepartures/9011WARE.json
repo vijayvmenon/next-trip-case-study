@@ -1,0 +1,104 @@
+{
+  "stops": [
+    {
+      "stop_id": 56336,
+      "latitude": 44.980074,
+      "longitude": -93.273244,
+      "description": "Warehouse Hennepin Ave Station"
+    }
+  ],
+  "alerts": [],
+  "departures": [
+    {
+      "actual": true,
+      "trip_id": "18730123-JUN21-RAIL-Weekday-01",
+      "stop_id": 56336,
+      "departure_text": "14 Min",
+      "departure_time": 1623807840,
+      "description": "to Mall of America",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730132-JUN21-RAIL-Weekday-01",
+      "stop_id": 56336,
+      "departure_text": "8:59",
+      "departure_time": 1623808740,
+      "description": "to Mall of America",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730128-JUN21-RAIL-Weekday-01",
+      "stop_id": 56336,
+      "departure_text": "9:14",
+      "departure_time": 1623809640,
+      "description": "to Mall of America",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730129-JUN21-RAIL-Weekday-01",
+      "stop_id": 56336,
+      "departure_text": "9:29",
+      "departure_time": 1623810540,
+      "description": "to Mall of America",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730134-JUN21-RAIL-Weekday-01",
+      "stop_id": 56336,
+      "departure_text": "9:44",
+      "departure_time": 1623811440,
+      "description": "to Mall of America",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730136-JUN21-RAIL-Weekday-01",
+      "stop_id": 56336,
+      "departure_text": "9:59",
+      "departure_time": 1623812340,
+      "description": "to Mall of America",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730137-JUN21-RAIL-Weekday-01",
+      "stop_id": 56336,
+      "departure_text": "10:14",
+      "departure_time": 1623813240,
+      "description": "to Mall of America",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    }
+  ]
+}

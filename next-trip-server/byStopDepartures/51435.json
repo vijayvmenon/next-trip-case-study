@@ -1,0 +1,12 @@
+{
+  "stops": [
+    {
+      "stop_id": 51435,
+      "latitude": 44.874119,
+      "longitude": -93.224068,
+      "description": "Terminal 2 Humphrey Station"
+    }
+  ],
+  "alerts": [],
+  "departures": []
+}

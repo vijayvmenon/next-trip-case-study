@@ -1,0 +1,111 @@
+{
+  "stops": [
+    {
+      "stop_id": 56335,
+      "latitude": 44.982905,
+      "longitude": -93.277396,
+      "description": "Target Field Station Platform 1"
+    }
+  ],
+  "alerts": [],
+  "departures": [
+    {
+      "actual": false,
+      "trip_id": "18730123-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "8:42",
+      "departure_time": 1623807720,
+      "description": "to Mall of America",
+      "gate": "1",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730132-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "8:57",
+      "departure_time": 1623808620,
+      "description": "to Mall of America",
+      "gate": "1",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730128-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "9:12",
+      "departure_time": 1623809520,
+      "description": "to Mall of America",
+      "gate": "1",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730129-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "9:27",
+      "departure_time": 1623810420,
+      "description": "to Mall of America",
+      "gate": "1",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730134-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "9:42",
+      "departure_time": 1623811320,
+      "description": "to Mall of America",
+      "gate": "1",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730136-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "9:57",
+      "departure_time": 1623812220,
+      "description": "to Mall of America",
+      "gate": "1",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730137-JUN21-RAIL-Weekday-01",
+      "stop_id": 56335,
+      "departure_text": "10:12",
+      "departure_time": 1623813120,
+      "description": "to Mall of America",
+      "gate": "1",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    }
+  ]
+}

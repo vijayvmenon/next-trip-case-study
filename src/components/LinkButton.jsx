@@ -1,5 +1,7 @@
+/* eslint-disable */
 import React from 'react';
 import PropTypes from 'prop-types';
+import { useRoute, Link, useLocation } from 'wouter';
 import { createUseStyles } from 'react-jss';
 import { colors } from '../constants';
 
@@ -29,34 +31,42 @@ const useStyles = createUseStyles({
     -2px 0px 5px -3px #0E0E0E, 
     2px 0px 5px -3px #0E0E0E, 
     0px 2px 5px -3px #0E0E0E`,
+    '&:after': {
+      content: '""',
+      display: 'block',
+      width: 0,
+      height: 0,
+      position: 'absolute',
+      borderTop: '12px solid #0071DE',
+      borderLeft: '12px solid transparent',
+      borderRight: '12px solid transparent',
+      left: '45%',
+      bottom: '-8px',
+      filter: 'drop-shadow(1px 3px 1px rgb(0,0,0,0.2))',
+      zIndex: 1,
+    },
   },
 });
 
-export default function LinkButton({ name, hrefLink, active, click }) {
+export default function LinkButton({ name, hrefLink }) {
   const classes = useStyles();
-
-  const clickFn = (e) => {
-    // e.preventDefault();
-    console.log(e.target);
-    click(name);
-  };
-
+  // const [match, params] = useRoute(`${hrefLink}?/:route/:direction/:stop*`); // check if route is the current active route
+  const [location] = useLocation();
+  console.log(location);
+  const active = location.indexOf(hrefLink) !== -1;
   return (
-    <a
-      href={hrefLink}
+    <Link
       className={`${classes.linkButtonRoot} ${
         active ? classes.linkActive : undefined
       }`}
-      onClick={clickFn}
+      href={hrefLink}
     >
       {name}
-    </a>
+    </Link>
   );
 }
 
 LinkButton.propTypes = {
   name: PropTypes.string.isRequired,
   hrefLink: PropTypes.string.isRequired,
-  active: PropTypes.bool.isRequired,
-  click: PropTypes.func.isRequired,
 };
