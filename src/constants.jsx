@@ -68,7 +68,7 @@ const constants = {
     idField: 'id',
     valueField: 'label',
   },
-  INTERVAL_FREQUENCY: 30000,
+  INTERVAL_FREQUENCY: 45000,
   SHOW_MORE: 'Show more',
   SHOW_LESS: 'Show less',
   SEARCH_STOPS: 'Search stops',

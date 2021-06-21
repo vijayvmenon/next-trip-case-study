@@ -26,7 +26,12 @@ export default function LandingPage() {
   const [location, setLocation] = useLocation();
   const { state: { hideHeader, translations = {} } = {} } = useContext(Context);
   useEffect(() => {
-    if (location === '/' || location === '/next-trip-case-study') {
+    // These are added because github pages use the repo name in URL , so handling that condition
+    if (
+      location === '/' ||
+      location === '/next-trip-case-study' ||
+      location === '/next-trip-case-study/'
+    ) {
       setLocation('/byRoute');
     }
   }, [location, setLocation]);

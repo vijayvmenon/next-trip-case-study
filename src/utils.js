@@ -6,8 +6,8 @@ export async function httpGet(url) {
   let error;
   try {
     const fetchResponse = await fetch(
-      // `${constants.http.BASE_URL}/${url}`, // actual next-trip API's
-      `${constants.http.BASE_URL_LOCAL}/${url}`, // local nodeJS API's
+      `${constants.http.BASE_URL}/${url}`, // actual next-trip API's
+      // `${constants.http.BASE_URL_LOCAL}/${url}`, // local nodeJS API's
       {
         header: {
           Accept: 'application/json',
