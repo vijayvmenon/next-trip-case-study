@@ -25,7 +25,6 @@ export default function LandingPage() {
   const [location, setLocation] = useLocation();
   const { state: { hideHeader, translations = {} } = {} } = useContext(Context);
   useEffect(() => {
-    console.log(location);
     if (
       location === '/' ||
       location === constants.BASE_PATH ||
