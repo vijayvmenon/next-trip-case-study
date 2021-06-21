@@ -53,3 +53,4 @@ Now the server should be running at port 3002 and you should be able to access t
 7. Translations are implemented in Spanish and the value is stored in Local Storage to persist across sessions.
 8. I did not feel a need to use a state management library and it is handled using a combination of useReducer and Context.
 9. The application is hosted @ https://vijayvmenon.github.io/next-trip-case-study . It uses Github actions to trigger a build whenever a push is done to the repo.
+10. The Application is responsive for smaller form factors . I have made the Table stacked for smaller width with the columns one below other for each row. 
