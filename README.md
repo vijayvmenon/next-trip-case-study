@@ -1,4 +1,4 @@
-# New Document# Minneapolis Metro Transit Application
+# Minneapolis Metro Transit Application
 
 This is a Replica of Next Trip Application for Minneapolis Metro Transit @ https://www.metrotransit.org/nextrip . The UI is built with ReactJS and the Project also includes a small NodeJS application to access the API's locally.
 The API documentation is available @ https://svc.metrotransit.org/nextrip
