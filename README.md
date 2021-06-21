@@ -19,7 +19,7 @@ The Application should now be running at http://localhost:3000/
 
 ## Run tests
 
-`npm run test`
+`npm test`
 
 ## Steps to run server ( if required )
 
@@ -43,7 +43,3 @@ After maing above changes, do below steps:
 Now the server should be running at port 3002 and you should be able to access the local API's.
 
 ## Some notes regarding the Project
-
-1.
-2.
-3.
