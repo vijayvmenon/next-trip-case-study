@@ -83,15 +83,17 @@ const constants = {
   PAGE_NOT_FOUND_1: 'The page you requested could not be found.',
   PAGE_NOT_FOUND_2:
     'Please go back or press the button below to go to the homepage',
+  BASE_PATH: '/next-trip-case-study',
+  BASE_PATH_2: '/next-trip-case-study/',
   get NAVIGATION_OPTIONS() {
     return [
       {
         name: 'BY_ROUTE',
-        hrefLink: '/byRoute',
+        hrefLink: `${this.BASE_PATH}/byRoute`,
       },
       {
         name: 'BY_STOP',
-        hrefLink: '/byStop',
+        hrefLink: `${this.BASE_PATH}/byStop`,
       },
     ];
   },

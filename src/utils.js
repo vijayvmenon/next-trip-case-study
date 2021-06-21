@@ -45,16 +45,16 @@ export function urlBuilder(array) {
 export function checkIfUrlIsInByRouteFormat(url) {
   let result = false;
   const urlArray = url.split('/');
-  if (url.indexOf('byRoute') !== -1) {
-    if (urlArray.length === 5) {
-      const route = Number(urlArray[2]);
+  if (url.indexOf(`${constants.BASE_PATH}/byRoute`) !== -1) {
+    if (urlArray.length === 6) {
+      const route = Number(urlArray[3]);
       const validRoute = !Number.isNaN(route) && route >= 0 && route < 1000; // route_id is Number and between 0 and 1000
-      const direction = Number(urlArray[3]);
+      const direction = Number(urlArray[4]);
       const validDirection =
         !Number.isNaN(direction) && direction >= 0 && direction < 10; // direction_id is number and between 0 and 10
       const re = /^[a-z0-9]/i;
       const validStop =
-        re.test(urlArray[4]) &&
+        re.test(urlArray[5]) &&
         urlArray[4].toString().length >= 1 &&
         urlArray[4].toString().length <= 4; // stop is Alpha-Numeric and has 1 to 4 letters/numbers
       if (validRoute && validDirection && validStop) {
@@ -63,7 +63,7 @@ export function checkIfUrlIsInByRouteFormat(url) {
     }
   }
   if (result) {
-    result = urlArray.slice(2).join('/'); // removing "byRoute" from url for API call
+    result = urlArray.slice(3).join('/'); // removing "byRoute" from url for API call
   }
   return result;
 }
@@ -71,17 +71,17 @@ export function checkIfUrlIsInByRouteFormat(url) {
 export function checkIfUrlIsInByStopFormat(url) {
   let result = false;
   const urlArray = url.split('/');
-  if (url.indexOf('byStop') !== -1) {
-    if (urlArray.length === 3) {
+  if (url.indexOf(`${constants.BASE_PATH}/byStop`) !== -1) {
+    if (urlArray.length === 4) {
       const re = /^\d+$/;
-      const validStop = re.test(urlArray[2]); // stop_id is any positive number - no decimal
+      const validStop = re.test(urlArray[3]); // stop_id is any positive number - no decimal
       if (validStop) {
         result = true;
       }
     }
   }
   if (result) {
-    result = urlArray.slice(2).join('/'); // removing "byRoute" from url for API call
+    result = urlArray.slice(3).join('/'); // removing "byRoute" from url for API call
   }
   return result;
 }

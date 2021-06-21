@@ -15,7 +15,7 @@ exports[`Component:LandingPage.jsx LandingPage.jsx renders correctly 1`] = `
     <a
       className="linkButtonRoot-0-2-4 undefined"
       data-testid="custom-anchor-"
-      href="/byRoute"
+      href="/next-trip-case-study/byRoute"
       onClick={[Function]}
       to={null}
     >
@@ -24,7 +24,7 @@ exports[`Component:LandingPage.jsx LandingPage.jsx renders correctly 1`] = `
     <a
       className="linkButtonRoot-0-2-4 undefined"
       data-testid="custom-anchor-"
-      href="/byStop"
+      href="/next-trip-case-study/byStop"
       onClick={[Function]}
       to={null}
     >

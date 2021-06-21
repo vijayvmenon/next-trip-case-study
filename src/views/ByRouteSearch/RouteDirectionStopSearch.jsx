@@ -172,8 +172,8 @@ export default function RouteDirectionStopSearch() {
       the interval if any are set */
         setTableData(null);
         setIntrvl('reset');
-        // Show warning snackbar if the URL parameters are not valid and only when not in the rool url
-        if (location !== '/byRoute') {
+        // Show warning snackbar if the URL parameters are not valid and only when not in the root url
+        if (location !== `${constants.BASE_PATH}/byRoute`) {
           dispatch({
             type: 'SET_SNACKBAR',
             value: 'warning',
@@ -208,7 +208,7 @@ export default function RouteDirectionStopSearch() {
         getData(`${http.STOPS}/${routeParam}/${activeParam}`, 'STOP'); // get stops data again based on direction selected
       } else {
         const tableUrl = urlBuilder(selectProperties);
-        setLocation(`/byRoute/${tableUrl}`);
+        setLocation(`${constants.BASE_PATH}/byRoute/${tableUrl}`);
       }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

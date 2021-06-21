@@ -6,6 +6,7 @@ import { Context } from '../../context';
 import { httpGet, checkIfUrlIsInByStopFormat } from '../../utils';
 import TableWrapper from '../TableWrapper/TableWrapper';
 import Snackbar from '../../components/UI/Snackbar';
+import constants from '../../constants';
 
 const useStyles = createUseStyles({
   root: {
@@ -77,7 +78,7 @@ export default function StopNumberSearch() {
     if (!value) {
       return;
     }
-    setLocation(`/byStop/${value}`);
+    setLocation(`${constants.BASE_PATH}/byStop/${value}`);
   };
 
   /* Load departures (if url has required parameters) on Initial Load . This useEffect also loads the departures data when

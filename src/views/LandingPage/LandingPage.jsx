@@ -3,7 +3,6 @@ import { createUseStyles } from 'react-jss';
 import { Switch, Route, useLocation } from 'wouter';
 import constants, { colors } from '../../constants';
 import SearchOptions from '../SearchOptions/SearchOptions';
-// import RouteSearch from './RouteDirectionStopSearch copy';
 import RouteSearch from '../ByRouteSearch/RouteDirectionStopSearch';
 import StopSearch from '../ByStopSearch/StopNumberSearch';
 import PageNotFound from '../../components/PageNotFound/PageNotFound';
@@ -26,8 +25,13 @@ export default function LandingPage() {
   const [location, setLocation] = useLocation();
   const { state: { hideHeader, translations = {} } = {} } = useContext(Context);
   useEffect(() => {
-    if (location === '/') {
-      setLocation('/byRoute');
+    console.log(location);
+    if (
+      location === '/' ||
+      location === constants.BASE_PATH ||
+      location === constants.BASE_PATH_2
+    ) {
+      setLocation(`${constants.BASE_PATH}/byRoute`);
     }
   }, [location, setLocation]);
 
@@ -42,13 +46,19 @@ export default function LandingPage() {
         </>
       )}
       <Switch>
-        <Route path="/byRoute" component={RouteSearch} />
-        <Route path="/byStop" component={StopSearch} />
         <Route
-          path="/byRoute/:routeId/:directionId/:stopId"
+          path={`${constants.BASE_PATH}/byRoute`}
           component={RouteSearch}
         />
-        <Route path="/byStop/:stopId" component={StopSearch} />
+        <Route path={`${constants.BASE_PATH}/byStop`} component={StopSearch} />
+        <Route
+          path={`${constants.BASE_PATH}/byRoute/:routeId/:directionId/:stopId`}
+          component={RouteSearch}
+        />
+        <Route
+          path={`${constants.BASE_PATH}/byStop/:stopId`}
+          component={StopSearch}
+        />
         <Route>
           <PageNotFound />
         </Route>

@@ -69,7 +69,7 @@ exports[`Component:App.jsx App.jsx renders correctly 1`] = `
       <a
         className="linkButtonRoot-0-2-20 undefined"
         data-testid="custom-anchor-By route"
-        href="/byRoute"
+        href="/next-trip-case-study/byRoute"
         onClick={[Function]}
         to={null}
       >
@@ -78,7 +78,7 @@ exports[`Component:App.jsx App.jsx renders correctly 1`] = `
       <a
         className="linkButtonRoot-0-2-20 undefined"
         data-testid="custom-anchor-By stop #"
-        href="/byStop"
+        href="/next-trip-case-study/byStop"
         onClick={[Function]}
         to={null}
       >
