@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component:SelectLanguage.jsx SelectLanguage.jsx renders correctly 1`] = `
+<div
+  className="root-0-2-1"
+>
+  <div
+    className="rootLanguage-0-2-3"
+  >
+    <select
+      className="languageSelect-0-2-10 languageSelected-0-2-5"
+      data-testid="custom-select-id"
+      onChange={[Function]}
+      value="en"
+    >
+      <option
+        data-testid="option-default-id"
+        disabled={true}
+        hidden={true}
+        value="Select Language"
+      />
+      <option
+        className="selectedOption-0-2-12"
+        data-testid="option-en-id"
+        value="en"
+      >
+        English
+      </option>
+      <option
+        data-testid="option-es-id"
+        value="es"
+      >
+        Spanish
+      </option>
+    </select>
+  </div>
+</div>
+`;

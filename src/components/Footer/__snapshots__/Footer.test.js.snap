@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component:Footer.jsx Footer.jsx renders correctly 1`] = `
+<footer
+  className="footerRoot-0-2-1"
+>
+  <div
+    className="footerText-0-2-2"
+  />
+  <div
+    className="copyRightText-0-2-3"
+  >
+    © 2021 Metro Transit
+  </div>
+</footer>
+`;

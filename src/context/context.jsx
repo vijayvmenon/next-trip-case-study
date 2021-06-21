@@ -6,6 +6,7 @@ export const Context = createContext();
 
 export default function AppContext({ children }) {
   const [state, dispatch] = useReducer(reducer, initialState);
+
   return (
     <Context.Provider value={{ state, dispatch }}>{children}</Context.Provider>
   );

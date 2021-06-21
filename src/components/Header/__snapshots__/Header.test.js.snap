@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component:Header.jsx Header renders correctly 1`] = `
+Array [
+  <header
+    className="headerRoot-0-2-1"
+  >
+    <svg
+      className="appLogo-0-2-3"
+      onClick={[Function]}
+    >
+      app-logo.svg
+    </svg>
+    <h1
+      className="headerText-0-2-2"
+    >
+      Minneapolis Metro Transit
+    </h1>
+    <div
+      className="root-0-2-4"
+    >
+      <div
+        className="rootLanguage-0-2-6"
+      >
+        <select
+          className="languageSelect-0-2-13 languageSelected-0-2-8"
+          data-testid="custom-select-id"
+          onChange={[Function]}
+          value="en"
+        >
+          <option
+            data-testid="option-default-id"
+            disabled={true}
+            hidden={true}
+            value="Select Language"
+          />
+          <option
+            className="selectedOption-0-2-15"
+            data-testid="option-en-id"
+            value="en"
+          >
+            English
+          </option>
+          <option
+            data-testid="option-es-id"
+            value="es"
+          >
+            Spanish
+          </option>
+        </select>
+      </div>
+    </div>
+  </header>,
+  ",",
+]
+`;

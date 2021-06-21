@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component:Select.jsx Select.jsx renders correctly 1`] = `
+<div
+  className="root-0-2-1"
+>
+  <select
+    className="select-0-2-8 selected-0-2-3"
+    data-testid="custom-select-test_id"
+    onChange={[Function]}
+    value=""
+  >
+    <option
+      data-testid="option-default-test_id"
+      disabled={true}
+      hidden={true}
+      value="test"
+    />
+    <option
+      data-testid="option-1-test_id"
+      value="1"
+    >
+      value 1
+    </option>
+    <option
+      data-testid="option-2-test_id"
+      value="2"
+    >
+      value 2
+    </option>
+  </select>
+  <label
+    className="label-0-2-10"
+    htmlFor="test"
+  />
+</div>
+`;

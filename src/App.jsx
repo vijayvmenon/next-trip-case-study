@@ -1,8 +1,8 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import LandingPage from './views/LandingPage';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import LandingPage from './views/LandingPage/LandingPage';
 import AppContext from './context';
 
 const useStyles = createUseStyles({
@@ -17,7 +17,7 @@ function App() {
   return (
     <AppContext>
       <main className={classes.root}>
-        <Header headerText="Minneapolis Metro Transit" />
+        <Header />
         <LandingPage />
         <Footer />
       </main>

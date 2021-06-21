@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component:LinkButton.jsx LinkButton.jsx renders correctly 1`] = `
+<a
+  className="linkButtonRoot-0-2-1 undefined"
+  data-testid="custom-anchor-test"
+  href="/test"
+  onClick={[Function]}
+  to={null}
+>
+  test
+</a>
+`;

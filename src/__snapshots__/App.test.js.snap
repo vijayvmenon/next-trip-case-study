@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component:App.jsx App.jsx renders correctly 1`] = `
+<main
+  className="root-0-2-1"
+>
+  <header
+    className="headerRoot-0-2-2"
+  >
+    <svg
+      className="appLogo-0-2-4"
+      onClick={[Function]}
+    >
+      app-logo.svg
+    </svg>
+    <h1
+      className="headerText-0-2-3"
+    >
+      Minneapolis Metro Transit
+    </h1>
+    <div
+      className="root-0-2-5"
+    >
+      <div
+        className="rootLanguage-0-2-7"
+      >
+        <select
+          className="languageSelect-0-2-14 languageSelected-0-2-9"
+          data-testid="custom-select-id"
+          onChange={[Function]}
+          value="en"
+        >
+          <option
+            data-testid="option-default-id"
+            disabled={true}
+            hidden={true}
+            value="Select Language"
+          />
+          <option
+            className="selectedOption-0-2-16"
+            data-testid="option-en-id"
+            value="en"
+          >
+            English
+          </option>
+          <option
+            data-testid="option-es-id"
+            value="es"
+          >
+            Spanish
+          </option>
+        </select>
+      </div>
+    </div>
+  </header>
+  <div
+    className="root-0-2-17"
+  >
+    <header>
+      <h2
+        className="appHeaderText-0-2-18"
+      >
+        Real-time Departures
+      </h2>
+    </header>
+    <nav
+      className="root-0-2-19"
+    >
+      <a
+        className="linkButtonRoot-0-2-20 undefined"
+        data-testid="custom-anchor-By route"
+        href="/byRoute"
+        onClick={[Function]}
+        to={null}
+      >
+        By route
+      </a>
+      <a
+        className="linkButtonRoot-0-2-20 undefined"
+        data-testid="custom-anchor-By stop #"
+        href="/byStop"
+        onClick={[Function]}
+        to={null}
+      >
+        By stop #
+      </a>
+    </nav>
+     
+    <div
+      className="root-0-2-22"
+    >
+      <div
+        className="firstLine-0-2-23"
+      >
+         
+        <svg
+          className="icon-0-2-24"
+        >
+          app-logo.svg
+        </svg>
+        <span
+          className="notFound404-0-2-25"
+        >
+          404
+        </span>
+      </div>
+      <div
+        className="secondLine-0-2-27"
+      >
+        The page you requested could not be found.
+      </div>
+      <div
+        className="thirdLine-0-2-28"
+      >
+        Please go back or press the button below to go to the homepage
+      </div>
+      <div
+        className="buttonDiv-0-2-26"
+        data-testid="go-home-button"
+      >
+        <button
+          className="root-0-2-29"
+          data-testid="custom-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Go home
+        </button>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="footerRoot-0-2-30"
+  >
+    <div
+      className="footerText-0-2-31"
+    >
+      Metro Transit is a service of the Metropolitan Council,
+      Minneapolis/St. Paul, MN
+    </div>
+    <div
+      className="copyRightText-0-2-32"
+    >
+      © 2021 Metro Transit
+    </div>
+  </footer>
+</main>
+`;

@@ -1,0 +1,145 @@
+{
+  "stops": [
+    {
+      "stop_id": 51405,
+      "latitude": 44.854277,
+      "longitude": -93.238877,
+      "description": "MOA Transit Station"
+    }
+  ],
+  "alerts": [],
+  "departures": [
+    {
+      "actual": true,
+      "trip_id": "18730918-JUN21-RAIL-Saturday-01",
+      "stop_id": 51405,
+      "departure_text": "Due",
+      "departure_time": 1623547020,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": true,
+      "trip_id": "18731001-JUN21-RAIL-Saturday-01",
+      "stop_id": 51405,
+      "departure_text": "7 Min",
+      "departure_time": 1623547380,
+      "description": "to Mall of America",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    }
+  ],
+  "departures2": [
+    {
+      "actual": true,
+      "trip_id": "18730918-JUN21-RAIL-Saturday-01",
+      "stop_id": 51405,
+      "departure_text": "Due",
+      "departure_time": 1623547020,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": true,
+      "trip_id": "18731001-JUN21-RAIL-Saturday-01",
+      "stop_id": 51405,
+      "departure_text": "7 Min",
+      "departure_time": 1623547380,
+      "description": "to Mall of America",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730915-JUN21-RAIL-Saturday-01",
+      "stop_id": 51405,
+      "departure_text": "8:32",
+      "departure_time": 1623547920,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": true,
+      "trip_id": "18730999-JUN21-RAIL-Saturday-01",
+      "stop_id": 51405,
+      "departure_text": "24 Min",
+      "departure_time": 1623548400,
+      "description": "to Mall of America",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730919-JUN21-RAIL-Saturday-01",
+      "stop_id": 51405,
+      "departure_text": "8:47",
+      "departure_time": 1623548820,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18731004-JUN21-RAIL-Saturday-01",
+      "stop_id": 51405,
+      "departure_text": "8:51",
+      "departure_time": 1623549060,
+      "description": "to Mall of America",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18730920-JUN21-RAIL-Saturday-01",
+      "stop_id": 51405,
+      "departure_text": "9:02",
+      "departure_time": 1623549720,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "18731005-JUN21-RAIL-Saturday-01",
+      "stop_id": 51405,
+      "departure_text": "9:06",
+      "departure_time": 1623549960,
+      "description": "to Mall of America",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 1,
+      "direction_text": "SB",
+      "schedule_relationship": "Scheduled"
+    }
+  ]
+}

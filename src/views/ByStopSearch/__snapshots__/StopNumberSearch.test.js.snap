@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component:StopNumberSearch.jsx StopNumberSearch.jsx renders correctly 1`] = `
+Array [
+  "",
+  <form
+    action=""
+    className="root-0-2-1"
+  >
+    <div
+      className="root-0-2-10"
+    >
+      <input
+        className="input-0-2-12"
+        data-testid="custom-input"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        required={true}
+        type="text"
+        value=""
+      />
+      <label
+        className="label-0-2-13"
+        htmlFor=""
+      >
+        
+      </label>
+      <div
+        className="inputAdornments-0-2-16"
+      >
+        
+        <button
+          className="searchButton-0-2-19"
+          data-testid="input-search-icon-button"
+          onClick={[Function]}
+          type="button"
+        >
+           
+          <svg
+            className="searchIcon-0-2-14"
+          >
+            search-icon.svg
+          </svg>
+        </button>
+      </div>
+    </div>
+  </form>,
+]
+`;

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component:LandingPage.jsx LandingPage.jsx renders correctly 1`] = `
+<div
+  className="root-0-2-1"
+>
+  <header>
+    <h2
+      className="appHeaderText-0-2-2"
+    />
+  </header>
+  <nav
+    className="root-0-2-3"
+  >
+    <a
+      className="linkButtonRoot-0-2-4 undefined"
+      data-testid="custom-anchor-"
+      href="/byRoute"
+      onClick={[Function]}
+      to={null}
+    >
+      
+    </a>
+    <a
+      className="linkButtonRoot-0-2-4 undefined"
+      data-testid="custom-anchor-"
+      href="/byStop"
+      onClick={[Function]}
+      to={null}
+    >
+      
+    </a>
+  </nav>
+   
+  <div
+    className="root-0-2-6"
+  >
+    <div
+      className="firstLine-0-2-7"
+    >
+       
+      <svg
+        className="icon-0-2-8"
+      >
+        app-logo.svg
+      </svg>
+      <span
+        className="notFound404-0-2-9"
+      >
+        404
+      </span>
+    </div>
+    <div
+      className="secondLine-0-2-11"
+    />
+    <div
+      className="thirdLine-0-2-12"
+    />
+    <div
+      className="buttonDiv-0-2-10"
+      data-testid="go-home-button"
+    >
+      <button
+        className="root-0-2-13"
+        data-testid="custom-button"
+        onClick={[Function]}
+        type="button"
+      >
+        
+      </button>
+    </div>
+  </div>
+</div>
+`;

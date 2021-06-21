@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component:RouteDirectionStopSearch.jsx RouteDirectionStopSearch.jsx renders correctly 1`] = `
+Array [
+  "",
+  <form
+    action=""
+    className="root-0-2-1"
+  >
+    <div
+      className="root-0-2-11"
+    >
+      <select
+        className="select-0-2-18 notSelected-0-2-15"
+        data-testid="custom-select-route_id"
+        onChange={[Function]}
+        value="SELECT_ROUTE"
+      >
+        <option
+          data-testid="option-default-route_id"
+          disabled={true}
+          hidden={false}
+          value="SELECT_ROUTE"
+        />
+      </select>
+    </div>
+  </form>,
+]
+`;

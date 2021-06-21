@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component:PageNotFound.jsx PageNotFound.jsx renders correctly 1`] = `
+Array [
+  <div
+    className="root-0-2-1"
+  >
+    <div
+      className="firstLine-0-2-2"
+    >
+       
+      <svg
+        className="icon-0-2-3"
+      >
+        app-logo.svg
+      </svg>
+      <span
+        className="notFound404-0-2-4"
+      >
+        404
+      </span>
+    </div>
+    <div
+      className="secondLine-0-2-6"
+    />
+    <div
+      className="thirdLine-0-2-7"
+    />
+    <div
+      className="buttonDiv-0-2-5"
+      data-testid="go-home-button"
+    >
+      <button
+        className="root-0-2-8"
+        data-testid="custom-button"
+        onClick={[Function]}
+        type="button"
+      >
+        
+      </button>
+    </div>
+  </div>,
+  ",",
+]
+`;

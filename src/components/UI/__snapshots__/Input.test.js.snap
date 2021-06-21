@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component:Input.jsx Input.jsx renders correctly 1`] = `
+<div
+  className="root-0-2-1"
+>
+  <input
+    className="input-0-2-3"
+    data-testid="custom-input"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    required={true}
+    type="text"
+    value="test"
+  />
+  <label
+    className="label-0-2-4"
+    htmlFor="test"
+  >
+    test
+  </label>
+  <div
+    className="inputAdornments-0-2-7"
+  >
+    <button
+      className="closeButton-0-2-11"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        className="closeIcon-0-2-6"
+      >
+        close-icon-snackbar.svg
+      </svg>
+    </button>
+    <button
+      className="searchButton-0-2-10"
+      data-testid="input-search-icon-button"
+      onClick={[Function]}
+      type="button"
+    >
+       
+      <svg
+        className="searchIcon-0-2-5"
+      >
+        search-icon.svg
+      </svg>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component:Button.jsx Button.jsx renders correctly 1`] = `
+<button
+  className="root-0-2-1"
+  data-testid="custom-button"
+  onClick={[MockFunction]}
+  type="button"
+>
+  test
+</button>
+`;

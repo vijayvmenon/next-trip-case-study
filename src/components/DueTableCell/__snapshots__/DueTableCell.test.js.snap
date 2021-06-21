@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component:DueTableCell.jsx DueTableCell.jsx renders correctly 1`] = `
+<div
+  className="root-0-2-1"
+>
+  <svg
+    className="blinker-0-2-2"
+    data-testid="broadcast-svg"
+  >
+    broadcast.svg
+  </svg>
+  <div>
+    
+  </div>
+</div>
+`;
